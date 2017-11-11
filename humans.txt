@@ -1,0 +1,15 @@
+# humanstxt.org
+
+/* TEAM */                           
+DIDIx13
+Site: http://didix13.com/
+Email: admin@didix13.com
+Twitter : https://twitter.com/AmeliDIDI
+Location: Switzerland
+
+/* SITE */
+Created: 28.01.2017
+Last update: 24.07.2017
+Language: English
+Doctype: HTML5
+IDE: Atom, Notepad++, FileZilla
