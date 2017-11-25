@@ -94,6 +94,21 @@
           </div>
         </div>
       </footer>
+	  <!-- Hello you :) -->
+      <script>
+        if ( window.addEventListener ) {
+          var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+          window.addEventListener("keydown", function(e){
+            kkeys.push( e.keyCode );
+            if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+
+              document.location.href="hackers.txt"
+        //            window.open('file:///C:/Windows/notepad.exe')
+        //            document.location.href="C:/Windows/notepad.exe"
+            }
+          }, true);
+        }
+       </script>
   </body>
 </html>
 <!-- https://counter8.fcs.ovh/private/compteurdevisite.php?c=ff3fcef64e9359ac6718eceacae45446 -->
