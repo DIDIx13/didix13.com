@@ -1,10 +1,10 @@
+# You're Welcome
+
 User-agent: *
 Allow: /
-Disallow: /css/
-Disallow: /js/
 
 User-agent: Mediapartners-Google
-Disallow:
+Allow: /
 
 User-agent: Googlebot
-Disallow: /
+Allow: /
