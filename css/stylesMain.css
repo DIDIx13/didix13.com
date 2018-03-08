@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
 *{
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 html, body{
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
   height: 100%;
   min-height: 100%;
   margin: 0;
@@ -10,6 +15,69 @@ html, body{
   /*background-image:url(../images/backgroundMain.jpg);*/
   background-attachment: fixed;
   background-position:center;
+}
+body > div {
+  width: auto;
+  align-self: center;
+}
+.line1, .line2 {
+  font-size: 0;
+}
+div.line2 span {
+  font-size: 20px;
+  text-transform: uppercase;
+  opacity: .3;
+  font-weight: 400;
+}
+
+#wrap {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+
+#popup {
+	position: absolute;
+	width: 300px;
+	height: auto;
+	top: 50%; left: 50%;
+	margin-left: -150px; margin-top: -100px;
+
+	-webkit-perspective: 800px;
+  	-webkit-perspective-origin: 50% 50px;
+   perspective: 800px;
+   perspective-origin: 50% 50px;
+}
+
+.piece {
+	background: rgba(95,144,222,0.5);
+	float: left;
+}
+
+#popup h1 {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	top: 50%; margin-top: -20px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #ccc;
+}
+
+.reverse {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -30px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #ccc;
+	cursor: pointer;
+}
+
+span.space {
+  display: inline-block;
+  width: 10px;
 }
 #h1Main{
   font-family: 'Courrier New', sans-serif;
@@ -200,7 +268,7 @@ header li a:hover{
   border-radius: 10px;
   padding-bottom: 1%;
   margin-bottom: 10em;
-  float: left;
+  float: center;
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
@@ -214,13 +282,6 @@ header li a:hover{
 }
 #contenu2{
   z-index: 3999;
-  text-align: left;
-  margin-left: 3%;
-  margin-right: 3%;
-  color: #F3F3F3;
-}
-#contenu3{
-  z-index: 3998;
   text-align: left;
   margin-left: 3%;
   margin-right: 3%;
