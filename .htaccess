@@ -9,7 +9,6 @@ ErrorDocument 407 "407 Proxy Authentication Required | The client must first aut
 ErrorDocument 408 "408 Request Timeout | The server timed out waiting for the request"
 ErrorDocument 409 "409 Conflict | The request could not be completed because of a conflict in the request"
 ErrorDocument 410 "410 Gone | The requested page is no longer available"
-ErrorDocument 411 "411 Length Required	 | The "Content-Length" is not defined. The server will not accept the request without it "
 ErrorDocument 412 "412 Precondition Failed | The precondition given in the request evaluated to false by the server"
 ErrorDocument 413 "413 Request Entity Too Large | The server will not accept the request, because the request entity is too large"
 ErrorDocument 414 "414 Request-URI Too Long | The server will not accept the request, because the URL is too long. Occurs when you convert a POST request to a GET request with a long query information "
