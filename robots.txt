@@ -2,9 +2,15 @@
 
 User-agent: *
 Allow: /
+Disallow: /cv
 
 User-agent: Mediapartners-Google
 Allow: /
 
 User-agent: Googlebot
 Allow: /
+
+User-agent: nsa
+Disallow: /
+
+Sitemap: https://didix13.com/sitemap.xml
