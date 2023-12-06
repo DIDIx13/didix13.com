@@ -1,7 +1,7 @@
 # humanstxt.org
 
 /* TEAM */
-DIDIx13
+Darwin Ameli
 Site: https://didix13.com
 Email: DIDI.ameli[AT]gmail.com
 Twitter : https://twitter.com/AmeliDIDI
