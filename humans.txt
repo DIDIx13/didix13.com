@@ -9,7 +9,7 @@ Location: Switzerland
 
 /* SITE */
 Created: 15.02.2017
-Last huge update: 09.04.2018
+Last huge update: 07.12.2023
 Language: English
 Doctype: HTML5
 IDE: Atom, Notepad++, FileZilla
